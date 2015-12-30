@@ -7,7 +7,7 @@ var contextMenu = require("sdk/context-menu");
 // Manage calls from button
 var button = buttons.ActionButton({
   id: "alldebrid-this",
-  label: "Send to AllDebrid this tab",
+  label: "Send this tab to AllDebrid",
   icon: {
     "16": "./icon-16.png",
     "32": "./icon-32.png",
