@@ -31,7 +31,7 @@ var menuItem = contextMenu.Item({
   image: self.data.url("icon-16.png"),
   onMessage: function (url) {
     goToDebridFromMenu(url);
-    console.log(url);
+    //console.log(url);
   }
 });
 
