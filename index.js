@@ -23,7 +23,7 @@ function goToDebridFromButton(state) {
 
 // Manage calls on links from menu 
 var menuItem = contextMenu.Item({
-  label: "Send to AllDebrid",
+  label: "Send this link to AllDebrid",
   context: contextMenu.SelectorContext('a[href]') ,
   contentScript: "self.on('click', function (node, data) {" +
                  "self.postMessage(node.href);" +
@@ -42,7 +42,7 @@ function goToDebridFromMenu(url) {
 
 // Manage calls on text
 var menuItem = contextMenu.Item({
-  label: "Send to AllDebrid",
+  label: "Send this Text to AllDebrid",
   context: contextMenu.SelectionContext(),
   contentScript: 'self.on("click", function () {' +
                  '  var text = window.getSelection().toString();' +
