@@ -1,0 +1,16 @@
+{
+  "title": "F-AllDebrid - Fast AllDebrid",
+  "name": "f-alldebrid",
+  "version": "0.0.1",
+  "description": "Simple and useful Plugin for Alldebrid... THAT WORKS!",
+  "main": "index.js",
+  "author": "makeb.it",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "alldebrid"
+  ]
+}
