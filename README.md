@@ -9,12 +9,13 @@ A link can be sent to AllDebrid:
 - using a simple button on the action bar that sends to AllDebrid the current tab
 - clicking with right click on a link and then on AllDebrid button in the menu
 - selecting a text and then clicking with right click on it and then on AllDebrid button in the menu
+
+A torrent can be sent to AllDebrid:
 - clicking with right click on a magnet link and then on AllDebrid button in the menu
 
 Because the list of hosts changes quickly and is often not updated, you can send any link that you think it might be converted to AllDebrid.
 
 Changelog:
-
 0.0.3: Added support for Torrent. 
 0.0.2
 0.0.1
