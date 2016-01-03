@@ -1,7 +1,7 @@
 {
   "title": "F-AllDebrid - Fast AllDebrid",
   "name": "f-alldebrid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple and useful Plugin for Alldebrid... THAT WORKS!",
   "main": "index.js",
   "author": "makeb.it",
