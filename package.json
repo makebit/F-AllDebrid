@@ -1,7 +1,7 @@
 {
   "title": "F-AllDebrid - Fast AllDebrid",
   "name": "f-alldebrid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple and useful Plugin for Alldebrid... THAT WORKS!",
   "main": "index.js",
   "author": "makeb.it",
@@ -12,5 +12,6 @@
   "license": "MIT",
   "keywords": [
     "alldebrid"
-  ]
+  ],
+  "permissions": {"private-browsing": true}
 }

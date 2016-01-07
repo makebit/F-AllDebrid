@@ -15,6 +15,7 @@ A torrent can be sent to AllDebrid:
 Because the list of hosts changes quickly and is often not updated, you can send any link that you think it might be converted to AllDebrid.
 
 Changelog:
+0.0.4: Bugfix: magnet on image + private browsing
 0.0.3: Added support for Torrent. 
 0.0.2
 0.0.1

@@ -62,7 +62,7 @@ var menuItem = contextMenu.Item({
   label: "Send this Torrent to AllDebrid",
   context: contextMenu.PredicateContext(isMagnet),
   contentScript: "self.on('click', function (node, data) {" +
-                 "self.postMessage(node.href);" +
+                 "self.postMessage(node.href||node.parentNode.href);" +
                  "});",
   image: self.data.url("icon-16.png"),
   onMessage: function (url) {
